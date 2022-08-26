@@ -8,19 +8,32 @@
   color: #112b3c;
 }
 
+#Nav {
+  width: 100vw;
+  height: 10vh;
+}
+
+.btn,
+.btn:focus,
+.btn:hover {
+  outline: none !important;
+  border-style: none !important;
+}
+
+/* ------------------------------- Previous design */
 /* Navbar section */
-svg {
+/* svg {
   width: 50px;
   height: 50px;
-}
+} */
 
 /* Eye */
-.container {
+/* .container {
   position: relative;
   cursor: pointer;
-}
+} */
 
-.iris {
+/* .iris {
   position: absolute;
   width: 20px;
   height: 20px;
@@ -29,9 +42,9 @@ svg {
   border-radius: 50%;
   left: 20px;
   top: 15px;
-}
+} */
 
-.iris:before {
+/* .iris:before {
   content: '';
   position: absolute;
   background-color: #333;
@@ -58,15 +71,15 @@ svg {
   overflow: hidden;
   box-shadow: 2px 5px 9px #888888;
   background: #f9f2ed;
-}
+} */
 
 /* Section */
-section {
+/* section {
   min-height: 70vh;
-}
+} */
 
 /* Index section */
-#Index {
+/* #Index {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -98,4 +111,4 @@ a {
 
 .body-btn:hover {
   font-size: 130% !important;
-}
+} */
