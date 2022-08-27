@@ -18,9 +18,12 @@ const Bio = () => {
             </p>
             <div className='lh-base' style={{ fontSize: '16px' }}>
               <p>
-                I am a curious person who have built several personal projects,
-                and I would love to collaborate. If you want to work with me, do
-                let me know
+                I am a curious person who have built several projects, and{' '}
+                <span style={{ fontWeight: '600' }}>
+                  <i>I would love to collaborate with you on your project</i>
+                </span>{' '}
+                . <br />
+                If you want to work with me, do let me know.
               </p>
               <p className='mb-5'>
                 <a

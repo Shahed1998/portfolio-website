@@ -1,4 +1,5 @@
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
+import SVG from './SVG';
 const Sidebar = () => {
   const btnClick = () => {
     document.querySelector('.btn-close').click();
@@ -15,36 +16,67 @@ const Sidebar = () => {
       >
         <div className='offcanvas-header'>
           <h5 className='offcanvas-title' id='offcanvasWithBothOptionsLabel'>
-            Menu
+            {/* Menu */}
+            <SVG />
           </h5>
           <button
             type='button'
-            className='btn-close'
+            className='btn-close btn-close-white'
             data-bs-dismiss='offcanvas'
             aria-label='Close'
           ></button>
         </div>
-        <div className='offcanvas-body'>
+        <div className='offcanvas-body d-flex align-items-center justify-content-center'>
           <p>
-            <Link to='/' onClick={btnClick}>
+            <NavLink
+              to='/'
+              onClick={btnClick}
+              style={({ isActive }) => ({
+                color: isActive ? '#FF4A4A' : '#fff',
+              })}
+            >
               Bio
-            </Link>
+            </NavLink>
             <br />
-            <Link to='/skill' onClick={btnClick}>
+            <NavLink
+              to='/skill'
+              onClick={btnClick}
+              style={({ isActive }) => ({
+                color: isActive ? '#FF4A4A' : '#fff',
+              })}
+            >
               Skills
-            </Link>
+            </NavLink>
             <br />
-            <Link to='/project' onClick={btnClick}>
+            <NavLink
+              to='/project'
+              onClick={btnClick}
+              style={({ isActive }) => ({
+                color: isActive ? '#FF4A4A' : '#fff',
+              })}
+            >
               Project
-            </Link>
+            </NavLink>
             <br />
-            <Link to='/resume' onClick={btnClick}>
+            <NavLink
+              to='/resume'
+              onClick={btnClick}
+              style={({ isActive }) => ({
+                color: isActive ? '#FF4A4A' : '#fff',
+              })}
+            >
               Resume
-            </Link>
+            </NavLink>
             <br />
-            <Link to='/contact' onClick={btnClick}>
+            <NavLink
+              to='/contact'
+              onClick={btnClick}
+              style={({ isActive }) => ({
+                color: isActive ? '#FF4A4A' : '#fff',
+              })}
+            >
               Contact
-            </Link>
+            </NavLink>
           </p>
         </div>
       </div>

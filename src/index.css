@@ -13,6 +13,34 @@
   height: 10vh;
 }
 
+.offcanvas-header,
+.offcanvas-body {
+  background-color: #112b3c;
+}
+
+.offcanvas-body a {
+  color: #fff;
+  padding: 2px;
+  display: block;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.offcanvas-body a:hover {
+  color: #fff;
+}
+
+svg {
+  height: 50px;
+  width: 50px;
+}
+
+.offcanvas-title {
+  color: #fff !important;
+}
+.offcanvas-header button {
+}
+
 .btn,
 .btn:focus,
 .btn:hover {
