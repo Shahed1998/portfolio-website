@@ -1,4 +1,5 @@
 import me from '../assets/Images/me.jpg';
+import { Link } from 'react-router-dom';
 const Bio = () => {
   return (
     <div className='container'>
@@ -18,12 +19,19 @@ const Bio = () => {
             </p>
             <div className='lh-base' style={{ fontSize: '16px' }}>
               <p>
-                I am a curious person who have built several projects, and{' '}
-                <span style={{ fontWeight: '600' }}>
-                  <i>I would love to collaborate with you on your project</i>
-                </span>{' '}
-                . <br />
-                If you want to work with me, do let me know.
+                I am a curious person who have built several projects, and I
+                would love to collaborate with you on your project . <br />
+                If you want to work with me,{' '}
+                <i>
+                  {' '}
+                  <Link
+                    to='/contact'
+                    style={{ color: 'red', textDecoration: 'none' }}
+                  >
+                    do let me know
+                  </Link>
+                </i>
+                .
               </p>
               <p className='mb-5'>
                 <a
