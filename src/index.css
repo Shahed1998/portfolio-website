@@ -20,6 +20,18 @@
   border-style: none !important;
 }
 
+.my-img {
+  width: 75%;
+  display: block;
+  margin: auto;
+}
+
+@media only screen and (max-width: 1000px) {
+  .my-img {
+    width: 100%;
+  }
+}
+
 /* ------------------------------- Previous design */
 /* Navbar section */
 /* svg {
