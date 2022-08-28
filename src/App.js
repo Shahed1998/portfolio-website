@@ -2,9 +2,10 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Bio from './Components/Bio';
 import Project from './Components/Project';
 import Navbar from './Components/Navbar';
-import Skill from './Components/Skill';
+// import Skill from './Components/Skill';
 import Resume from './Components/Resume';
 import Contact from './Components/Contact';
+import Error from './Components/Error';
 
 function App() {
   return (
@@ -12,10 +13,11 @@ function App() {
       <Navbar />
       <Routes>
         <Route path='/' element={<Bio />} />
-        <Route path='/skill' element={<Skill />} />
+        {/* <Route path='/skill' element={<Skill />} /> */}
         <Route path='/project' element={<Project />} />
         <Route path='/resume' element={<Resume />} />
         <Route path='/contact' element={<Contact />} />
+        <Route path='*' element={<Error />} />
       </Routes>
     </BrowserRouter>
   );
