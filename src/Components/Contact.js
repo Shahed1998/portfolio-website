@@ -1,7 +1,17 @@
 import me from '../assets/Images/me.jpg';
+import { useRef } from 'react';
+import emailjs from '@emailjs/browser';
+import Modal from './Modal';
+import ContactPage from '../assets/JS/contact';
+
 const Contact = () => {
+  const form = useRef();
+  const contactPageCode = new ContactPage(form, emailjs);
+
+  // -----------------------------------------------------
   return (
     <div className='container'>
+      <Modal />
       <div className='row'>
         <div className='col-sm-12 col-lg-6'>
           <img className='my-img' src={me} alt={'Shahed'} />
@@ -17,12 +27,12 @@ const Contact = () => {
                 <h1 style={{ fontSize: '24px' }}>Contact me</h1>
               </div>
               <div className='col-12'>
-                <form action='' method='post'>
+                <form method='post' ref={form}>
                   <input
                     type='text'
                     placeholder='Full name'
                     className='w-100 p-2 mb-3'
-                    name='full-name'
+                    name='name'
                   />
                   <input
                     type='text'
@@ -31,7 +41,7 @@ const Contact = () => {
                     name='email'
                   />
                   <textarea
-                    name='text'
+                    name='message'
                     id=''
                     cols='30'
                     rows='10'
@@ -41,6 +51,7 @@ const Contact = () => {
                   ></textarea>
                   <button
                     className='btn btn-primary w-100 p-3'
+                    onClick={contactPageCode.sendEmail}
                     style={{
                       backgroundColor: '#FF4A4A',
                     }}
