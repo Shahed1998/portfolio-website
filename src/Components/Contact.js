@@ -2,11 +2,11 @@ import me from '../assets/Images/me.jpg';
 import { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 import Modal from './Modal';
-import ContactPage from '../assets/JS/contact';
+import ContactHandler from '../assets/JS/ContactHandler';
 
 const Contact = () => {
   const form = useRef();
-  const contactPageCode = new ContactPage(form, emailjs);
+  const contactHandlerCode = new ContactHandler(form, emailjs);
 
   // -----------------------------------------------------
   return (
@@ -51,7 +51,7 @@ const Contact = () => {
                   ></textarea>
                   <button
                     className='btn btn-primary w-100 p-3'
-                    onClick={contactPageCode.sendEmail}
+                    onClick={contactHandlerCode.sendEmail}
                     style={{
                       backgroundColor: '#FF4A4A',
                     }}

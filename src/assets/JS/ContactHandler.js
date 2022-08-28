@@ -1,16 +1,16 @@
-class ContactPage {
+class ContactHandler {
   constructor(form, emailjs) {
     this.form = form;
     this.emailjs = emailjs;
   }
-  //   Modal
+  //   Modal handling
   modalPopUp = (heading, text) => {
     document.querySelector('.modal-title').textContent = heading;
     document.querySelector('.modal-body').textContent = text;
     document.querySelector('#modalBtn').click();
     this.form.current.reset();
   };
-
+  //  Mail handler
   sendEmail = (e) => {
     e.preventDefault();
     const name = this.form.current[0].value;
@@ -38,4 +38,4 @@ class ContactPage {
   };
 }
 
-export default ContactPage;
+export default ContactHandler;
