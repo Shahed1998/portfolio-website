@@ -13,7 +13,7 @@ const Bio = () => {
         <div className='lh-base' style={{ fontSize: '16px' }}>
           <p>
             I am a curious person who have built several projects, and I would
-            love to collaborate with you on your project . <br />
+            love to collaborate with you on your project. <br />
             If you want to work with me,{' '}
             <i>
               {' '}

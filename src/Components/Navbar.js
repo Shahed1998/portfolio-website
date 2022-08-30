@@ -1,10 +1,11 @@
 import { Link } from 'react-router-dom';
-import Sidebar from './Sidebar';
+import Sidebar from './navbar/Sidebar';
 const Navbar = () => {
   return (
     <div
       id='Nav'
-      className='d-flex align-items-center justify-content-center shadow'
+      className='d-flex align-items-center justify-content-center shadow sticky-top'
+      style={{ backgroundColor: '#fff' }}
     >
       <div className='container position-relative p-2'>
         <div className='home-btn d-inline-block'>

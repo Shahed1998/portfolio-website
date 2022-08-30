@@ -25,9 +25,16 @@ function App() {
         <div className='row'>
           <div className='col-sm-12 col-lg-6 '>
             {['/', '/resume', '/contact'].includes(pathName) ? (
-              <img className='my-img' src={me} alt={'Shahed'} />
+              <img
+                // className='my-img sticky-lg-top'
+                className='my-img'
+                src={me}
+                // style={{ zIndex: '-1' }}
+                alt={'Shahed'}
+              />
             ) : null}
           </div>
+
           <Routes>
             <Route path='/' element={<Bio />} />
             <Route path='/project' element={<Project />} />

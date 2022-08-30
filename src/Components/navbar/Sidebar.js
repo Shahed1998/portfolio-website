@@ -38,16 +38,6 @@ const Sidebar = () => {
               >
                 Bio
               </NavLink>
-              {/* <br /> */}
-              {/* <NavLink
-                to='/skill'
-                onClick={btnClick}
-                style={({ isActive }) => ({
-                  color: isActive ? '#FF4A4A' : '#fff',
-                })}
-              >
-                Skills
-              </NavLink> */}
               <br />
               <NavLink
                 to='/project'
@@ -79,6 +69,7 @@ const Sidebar = () => {
                 Contact
               </NavLink>
             </p>
+
             <div className='social p-2'>
               {/* Facebook */}
               <a
