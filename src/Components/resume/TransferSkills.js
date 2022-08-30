@@ -12,7 +12,7 @@ const TransferSkill = () => {
         className='name mt-5 mb-3 p-2 text-center shadow'
         style={{ fontSize: '24px', color: 'red' }}
       >
-        Transferrable skills
+        Transferable skills
       </h1>
       <ul>
         {qualities.map((quality, i) => {
