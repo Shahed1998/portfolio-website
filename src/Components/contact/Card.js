@@ -1,6 +1,6 @@
 const Card = (props) => {
   return (
-    <div className='col-lg-4 col-md-6 col-sm-12'>
+    <div className='col-lg-3 col-md-6 col-sm-12 mb-2'>
       {/* style={{ width: '18rem' }} */}
       <div className='card mx-auto shadow'>
         <img

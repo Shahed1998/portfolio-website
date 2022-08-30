@@ -51,7 +51,7 @@ const Bio = () => {
               rel='noopener noreferrer'
               href={'https://github.com/Shahed1998'}
             >
-              Github
+              GitHub
             </a>
           </p>
         </div>

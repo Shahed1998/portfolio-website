@@ -8,6 +8,10 @@
   color: #112b3c;
 }
 
+body {
+  overflow-x: hidden;
+}
+
 #Nav {
   width: 100vw;
   height: 10vh;
