@@ -6,7 +6,7 @@ import Navbar from './Components/Navbar';
 import Resume from './Components/Resume';
 import Contact from './Components/Contact';
 import Error from './Components/Error';
-import me from './assets/Images/me-2.jpg';
+import me from './assets/Images/me.jpg';
 import Modal from './Components/Modal';
 import { useEffect, useState } from 'react';
 
