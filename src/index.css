@@ -13,9 +13,7 @@ body {
 }
 
 .my-img {
-  /* width: 75%; */
-  width: 480px;
-  height: 520px;
+  width: 75%;
   display: block;
   margin: auto;
 }
