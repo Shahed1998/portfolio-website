@@ -13,7 +13,9 @@ body {
 }
 
 .my-img {
-  width: 75%;
+  /* width: 75%; */
+  width: 480px;
+  height: 520px;
   display: block;
   margin: auto;
 }
@@ -69,7 +71,7 @@ svg {
 }
 
 #transferrable-skills ul {
-  list-style-type: '🤠  ';
+  list-style-type: '🔶  ';
 }
 
 #hobbies ul {
