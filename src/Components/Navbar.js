@@ -4,7 +4,7 @@ const Navbar = () => {
   return (
     <div
       id='Nav'
-      className='d-flex align-items-center justify-content-center shadow '
+      className='d-flex align-items-center justify-content-center shadow'
     >
       <div className='container position-relative p-2'>
         <div className='home-btn d-inline-block'>

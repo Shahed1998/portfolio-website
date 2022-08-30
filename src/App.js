@@ -23,8 +23,8 @@ function App() {
       <div className='container'>
         <Modal />
         <div className='row'>
-          <div className='col-sm-12 col-lg-6'>
-            {['/', '/project', '/resume', '/contact'].includes(pathName) ? (
+          <div className='col-sm-12 col-lg-6 '>
+            {['/', '/resume', '/contact'].includes(pathName) ? (
               <img className='my-img' src={me} alt={'Shahed'} />
             ) : null}
           </div>
