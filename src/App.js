@@ -26,10 +26,10 @@ function App() {
           <div className='col-sm-12 col-lg-6 '>
             {['/', '/resume', '/contact'].includes(pathName) ? (
               <img
-                // className='my-img sticky-lg-top'
-                className='my-img'
+                className='my-img sticky-lg-top'
+                // className='my-img'
                 src={me}
-                // style={{ zIndex: '-1' }}
+                style={{ zIndex: '-1' }}
                 alt={'Shahed'}
               />
             ) : null}

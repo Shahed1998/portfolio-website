@@ -1,0 +1,92 @@
+/* ------------------------------- Previous design */
+/* Navbar section */
+/* svg {
+  width: 50px;
+  height: 50px;
+} */
+
+/* Eye */
+/* .container {
+  position: relative;
+  cursor: pointer;
+} */
+
+/* .iris {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  border: 2px solid #333;
+  background-color: #8fe3cf;
+  border-radius: 50%;
+  left: 20px;
+  top: 15px;
+} */
+
+/* .iris:before {
+  content: '';
+  position: absolute;
+  background-color: #333;
+  border-radius: 50%;
+  width: 10px;
+  height: 10px;
+  top: 20%;
+  left: 20%;
+}
+
+.eyeBall {
+  position: relative;
+  width: 50px;
+  height: 50px;
+  background-color: transparent;
+  border: 2.5px solid #333;
+  border-radius: 50%;
+  box-shadow: inset 2.5px 2.5px 2.5px rgba(0, 0, 0, 0.3);
+  transform: rotate(45deg);
+  top: -5px;
+  z-index: 1;
+  display: inline-block;
+  margin: 10px;
+  overflow: hidden;
+  box-shadow: 2px 5px 9px #888888;
+  background: #f9f2ed;
+} */
+
+/* Section */
+/* section {
+  min-height: 70vh;
+} */
+
+/* Index section */
+/* #Index {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+#Index .my_img {
+  display: block;
+  border-radius: 50%;
+  width: 150px;
+  margin: auto;
+}
+
+#Index .brief {
+  margin-top: 16px;
+  text-align: center;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+.body-btn {
+  background-color: #e64848 !important;
+  padding: 16px !important;
+  color: #fff !important;
+  transition: all 0.2s linear !important;
+}
+
+.body-btn:hover {
+  font-size: 130% !important;
+} */
