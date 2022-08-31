@@ -9,10 +9,7 @@ const Contact = () => {
   // -----------------------------------------------------
   return (
     <div className='col-sm-12 col-lg-6'>
-      <div
-        className='container d-flex align-items-center justify-content-center'
-        style={{ minHeight: '90vh' }}
-      >
+      <div className='container mt-5' style={{ minHeight: '90vh' }}>
         <div className='row'>
           <div className='col-12'>
             <h1 style={{ fontSize: '24px' }}>Contact me</h1>

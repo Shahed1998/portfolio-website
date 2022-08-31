@@ -6,7 +6,7 @@ import Navbar from './Components/Navbar';
 import Resume from './Components/Resume';
 import Contact from './Components/Contact';
 import Error from './Components/Error';
-import me from './assets/Images/me.jpg';
+import me from './assets/Images/me-2.jpg';
 import Modal from './Components/Modal';
 import { useEffect, useState } from 'react';
 
@@ -22,7 +22,7 @@ function App() {
       <Navbar />
       <div className='container'>
         <Modal />
-        <div className='row'>
+        <div className='row mh-100'>
           <div className='col-sm-12 col-lg-6 '>
             {['/', '/resume', '/contact'].includes(pathName) ? (
               <img
