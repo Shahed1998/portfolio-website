@@ -1,10 +1,10 @@
 import Card from './contact/Card';
-import beachView from '../assets/Images/beach-view.jpg';
 import digitalClock from '../assets/Images/digital-clock.jpg';
 import weather from '../assets/Images/weather.jpg';
 import countPrime from '../assets/Images/count-primes.jpg';
 import calculator from '../assets/Images/calculator.jpg';
 import giveTreat from '../assets/Images/give-treat.jpg';
+import varsityProjects from '../assets/Images/varsity-projects.jpg';
 
 const Project = () => {
   return (
@@ -13,23 +13,25 @@ const Project = () => {
         <h1>Projects</h1>
         <h5 className='text-left'>
           You can find the code of all the projects on my{' '}
-          <a
-            style={{ textDecoration: 'none', color: 'red' }}
-            target='_blank'
-            rel='noopener noreferrer'
-            href={'https://github.com/Shahed1998'}
-          >
-            GitHub
-          </a>
+          <i>
+            <a
+              style={{ color: 'red' }}
+              target='_blank'
+              rel='noopener noreferrer'
+              href={'https://github.com/Shahed1998'}
+            >
+              GitHub
+            </a>
+          </i>
         </h5>
       </div>
       {/* First row */}
       <div className='row'>
-        {/* Beach view */}
+        {/* Varsity projects */}
         <Card
-          image={beachView}
-          title={'Beach view'}
-          website={'https://github.com/Shahed1998/Beach-View'}
+          image={varsityProjects}
+          title={'Varsity Projects'}
+          website={'https://github.com/Shahed1998/Varsity-projects'}
         />
         {/* Digital clock */}
         <Card

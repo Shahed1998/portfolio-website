@@ -5,7 +5,6 @@ const Hobbies = () => {
     'Spending time with family and friends',
     'Watching Movies',
     'Playing games',
-    'Eating',
   ];
 
   return (
@@ -14,7 +13,7 @@ const Hobbies = () => {
         className='name mt-5 mb-3 p-2 text-center shadow'
         style={{ fontSize: '24px', color: 'red' }}
       >
-        Hobbies
+        Interests
       </h1>
       <ul>
         {hobbies.map((hobby, i) => {

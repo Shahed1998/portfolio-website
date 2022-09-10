@@ -14,25 +14,18 @@ const Bio = () => {
           <p>
             I am a curious person who have built several projects, and I would
             love to collaborate with you on your project. <br />
-            If you want to work with me,{' '}
-            <i>
-              {' '}
-              <Link
-                to='/contact'
-                style={{ color: 'red', textDecoration: 'none' }}
-              >
-                do let me know
-              </Link>
-            </i>
-            .
+            If you want to work with me, do let me know.
           </p>
           <p className='mb-5'>
+            <Link to='/contact' className='me-3' style={{ color: 'red' }}>
+              Email
+            </Link>
             <a
               className='me-3'
               href={'https://www.facebook.com/shahed.chowdhury.50767'}
               target='_blank'
               rel='noopener noreferrer'
-              style={{ textDecoration: 'none', color: 'red' }}
+              style={{ color: 'red' }}
             >
               Facebook
             </a>
@@ -41,17 +34,9 @@ const Bio = () => {
               href={'https://www.linkedin.com/in/shahed-chowdhury-omi'}
               target='_blank'
               rel='noopener noreferrer'
-              style={{ textDecoration: 'none', color: 'red' }}
+              style={{ color: 'red' }}
             >
               LinkedIn
-            </a>
-            <a
-              style={{ textDecoration: 'none', color: 'red' }}
-              target='_blank'
-              rel='noopener noreferrer'
-              href={'https://github.com/Shahed1998'}
-            >
-              GitHub
             </a>
           </p>
         </div>

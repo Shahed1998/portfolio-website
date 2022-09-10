@@ -10,17 +10,26 @@ const Education = () => {
       <ul>
         <li>
           <h2 style={{ fontSize: '18px' }}>
-            American International University-Bangladesh
+            B.Sc in Computer Science Engineering
           </h2>
-          <p>BSc CSE 2018 - Present</p>
+          <p>
+            American International University-Bangladesh <br />
+            <i class='fa-regular fa-calendar-days'></i> 2018 - Present
+          </p>
         </li>
         <li>
-          <h2 style={{ fontSize: '18px' }}>Methodist English Medium School</h2>
-          <p>IGCSE A'level 2015 - 2017</p>
+          <h2 style={{ fontSize: '18px' }}>Edexcel IGCSE A'level</h2>
+          <p>
+            Methodist English Medium School <br />
+            <i class='fa-regular fa-calendar-days'></i> 2015 - 2017
+          </p>
         </li>
         <li>
-          <h2 style={{ fontSize: '18px' }}>Methodist English Medium School</h2>
-          <p>IGCSE O'level 2014 - 2015</p>
+          <h2 style={{ fontSize: '18px' }}>Edexcel IGCSE O'level</h2>
+          <p>
+            Methodist English Medium School <br />
+            <i class='fa-regular fa-calendar-days'></i> 2014 - 2015
+          </p>
         </li>
       </ul>
     </section>
