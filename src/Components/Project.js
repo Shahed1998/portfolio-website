@@ -1,4 +1,4 @@
-import Card from './contact/Card';
+import Card from './project/Card';
 import digitalClock from '../assets/Images/digital-clock.jpg';
 import weather from '../assets/Images/weather.jpg';
 import countPrime from '../assets/Images/count-primes.jpg';
@@ -15,7 +15,7 @@ const Project = () => {
           You can find the code of all the projects on my{' '}
           <i>
             <a
-              style={{ color: 'red' }}
+              style={{ color: 'rgb(255, 74, 74)' }}
               target='_blank'
               rel='noopener noreferrer'
               href={'https://github.com/Shahed1998'}

@@ -5,11 +5,17 @@
   padding: 0%;
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
-  color: #112b3c;
 }
 
 body {
   overflow-x: hidden;
+}
+
+#whole-body {
+  width: 100vw;
+  min-height: 100vh;
+  color: #fefbf6; /* theme */
+  background-color: #212121; /* theme */
 }
 
 .my-img {
@@ -20,18 +26,17 @@ body {
 
 /* ----------------------------------------------------- Navbar section */
 
-#Nav {
-  width: 100vw;
-  height: 10vh;
+#Nav i {
+  color: #fefbf6;
 }
 
 .offcanvas-header,
 .offcanvas-body {
-  background-color: #112b3c;
+  background-color: #212121;
 }
 
 .offcanvas-body a {
-  color: #fff;
+  color: #fefbf6;
   padding: 2px;
   display: block;
   text-decoration: none;
@@ -39,7 +44,7 @@ body {
 }
 
 .offcanvas-body a:hover {
-  color: #fff;
+  color: #fefbf6;
 }
 
 svg {
@@ -48,7 +53,7 @@ svg {
 }
 
 .offcanvas-title {
-  color: #fff !important;
+  color: #fefbf6 !important;
 }
 
 .btn,

@@ -3,7 +3,7 @@ const Skills = () => {
     <section className='lh-base' id='skills'>
       <h1
         className='name mt-3 mb-3 p-2 text-center shadow'
-        style={{ fontSize: '24px', color: 'red' }}
+        style={{ fontSize: '24px', color: 'rgb(255, 74, 74)' }}
       >
         Skills
       </h1>

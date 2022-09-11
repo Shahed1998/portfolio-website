@@ -11,7 +11,7 @@ const Hobbies = () => {
     <section className='lh-base' id='hobbies'>
       <h1
         className='name mt-5 mb-3 p-2 text-center shadow'
-        style={{ fontSize: '24px', color: 'red' }}
+        style={{ fontSize: '24px', color: 'rgb(255, 74, 74)' }}
       >
         Interests
       </h1>

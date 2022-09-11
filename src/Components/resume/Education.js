@@ -3,7 +3,7 @@ const Education = () => {
     <section className='lh-base' id='education'>
       <h1
         className='name mt-5 mb-3 p-2 text-center shadow'
-        style={{ fontSize: '24px', color: 'red' }}
+        style={{ fontSize: '24px', color: 'rgb(255, 74, 74)' }}
       >
         Education
       </h1>
@@ -14,21 +14,21 @@ const Education = () => {
           </h2>
           <p>
             American International University-Bangladesh <br />
-            <i class='fa-regular fa-calendar-days'></i> 2018 - Present
+            <i className='fa-regular fa-calendar-days'></i> 2018 - Present
           </p>
         </li>
         <li>
           <h2 style={{ fontSize: '18px' }}>Edexcel IGCSE A'level</h2>
           <p>
             Methodist English Medium School <br />
-            <i class='fa-regular fa-calendar-days'></i> 2015 - 2017
+            <i className='fa-regular fa-calendar-days'></i> 2015 - 2017
           </p>
         </li>
         <li>
           <h2 style={{ fontSize: '18px' }}>Edexcel IGCSE O'level</h2>
           <p>
             Methodist English Medium School <br />
-            <i class='fa-regular fa-calendar-days'></i> 2014 - 2015
+            <i className='fa-regular fa-calendar-days'></i> 2014 - 2015
           </p>
         </li>
       </ul>

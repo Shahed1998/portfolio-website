@@ -18,9 +18,9 @@ function App() {
   }, [location]);
 
   return (
-    <>
+    <div id='whole-body'>
       <Navbar />
-      <div className='container'>
+      <div className='container' style={{ zIndex: '1' }}>
         <Modal />
         <div className='row mh-100'>
           <div className='col-sm-12 col-lg-6 '>
@@ -29,8 +29,8 @@ function App() {
                 className='my-img sticky-lg-top'
                 // className='my-img'
                 src={me}
-                style={{ zIndex: '-1' }}
                 alt={'Shahed'}
+                style={{ zIndex: '1' }}
               />
             ) : null}
           </div>
@@ -44,7 +44,7 @@ function App() {
           </Routes>
         </div>
       </div>
-    </>
+    </div>
   );
 }
 

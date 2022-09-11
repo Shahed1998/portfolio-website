@@ -8,7 +8,8 @@ const Bio = () => {
         </h1>
         <p className='text-left' style={{ fontSize: '18px' }}>
           A passionate software engineer{' '}
-          <span style={{ color: 'red' }}> && </span>a constant learner 🚀
+          <span style={{ color: 'rgb(255, 74, 74)' }}> && </span>a constant
+          learner 🚀
         </p>
         <div className='lh-base' style={{ fontSize: '16px' }}>
           <p>
@@ -17,7 +18,11 @@ const Bio = () => {
             If you want to work with me, do let me know.
           </p>
           <p className='mb-5'>
-            <Link to='/contact' className='me-3' style={{ color: 'red' }}>
+            <Link
+              to='/contact'
+              className='me-3'
+              style={{ color: 'rgb(255, 74, 74)' }}
+            >
               Email
             </Link>
             <a
@@ -25,7 +30,7 @@ const Bio = () => {
               href={'https://www.facebook.com/shahed.chowdhury.50767'}
               target='_blank'
               rel='noopener noreferrer'
-              style={{ color: 'red' }}
+              style={{ color: 'rgb(255, 74, 74)' }}
             >
               Facebook
             </a>
@@ -34,7 +39,7 @@ const Bio = () => {
               href={'https://www.linkedin.com/in/shahed-chowdhury-omi'}
               target='_blank'
               rel='noopener noreferrer'
-              style={{ color: 'red' }}
+              style={{ color: 'rgb(255, 74, 74)' }}
             >
               LinkedIn
             </a>

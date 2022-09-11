@@ -10,7 +10,7 @@ const TransferSkill = () => {
     <section className='lh-base' id='transferrable-skills'>
       <h1
         className='name mt-5 mb-3 p-2 text-center shadow'
-        style={{ fontSize: '24px', color: 'red' }}
+        style={{ fontSize: '24px', color: 'rgb(255, 74, 74)' }}
       >
         Qualities
       </h1>
