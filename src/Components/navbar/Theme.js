@@ -28,14 +28,14 @@ const Theme = () => {
   return (
     <>
       <div
-        className='sun d-inline-block py-2 px-3'
-        style={{ border: '1px solid #fefbf6' }}
+        className='sun d-inline-block p-2 me-2'
+        // style={{ border: '1px solid #fefbf6' }}
       >
         <i className='fa-solid fa-sun' style={theme.day}></i>
       </div>
       <div
-        className='moon d-inline-block py-2 px-3'
-        style={{ border: '1px solid #fefbf6' }}
+        className='moon d-inline-block p-2'
+        // style={{ border: '1px solid #fefbf6' }}
       >
         <i className='fa-solid fa-moon' style={theme.night}></i>
       </div>
