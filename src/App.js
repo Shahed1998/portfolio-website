@@ -20,17 +20,17 @@ function App() {
   return (
     <div id='whole-body'>
       <Navbar />
-      <div className='container' style={{ zIndex: '1' }}>
+      <div className='container spa' style={{ zIndex: '1' }}>
         <Modal />
-        <div className='row mh-100'>
+        <div className='row'>
           <div className='col-sm-12 col-lg-6 '>
             {['/', '/resume', '/contact'].includes(pathName) ? (
               <img
                 className='my-img sticky-lg-top'
-                // className='my-img'
                 src={me}
                 alt={'Shahed'}
                 style={{ zIndex: '1' }}
+                width='400'
               />
             ) : null}
           </div>

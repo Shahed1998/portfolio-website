@@ -9,25 +9,25 @@ const Skills = () => {
       </h1>
       <ul>
         <li>
-          <h2 style={{ fontSize: '18px' }}>Client side</h2>
-          <p>HTML5, CSS3, Bootstrap5, JavaScript, jQuery, React.js</p>
+          <p>
+            Developing front-end web application using HTML5, CSS3, Bootstrap,
+            JavaScript, jQuery, React
+          </p>
         </li>
         <li>
-          <h2 style={{ fontSize: '18px' }}>Server side</h2>
-          <p>PHP, Laravel, Node.js, Express</p>
-        </li>
-        {/* <li>Able to work with databases MongoDB and MySQL</li> */}
-        <li>
-          <h2 style={{ fontSize: '18px' }}>Databases</h2>
-          <p>MongoDB and MySQL</p>
+          <p>
+            Building back-end web application using Node.js, Express, MongoDB,
+            Mongoose, PHP, Laravel, MySQL
+          </p>
         </li>
         <li>
-          <h2 style={{ fontSize: '18px' }}>API</h2>
-          <p>REST</p>
+          <p>Problem solving, Data structures and Algorithms</p>
         </li>
         <li>
-          <h2 style={{ fontSize: '18px' }}>Tools</h2>
-          <p>Linux terminal, Windows command line, Git, GitHub, vscode</p>
+          <p>Using LINUX command line</p>
+        </li>
+        <li>
+          <p>Building REST API</p>
         </li>
       </ul>
     </section>
