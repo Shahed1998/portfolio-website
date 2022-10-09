@@ -6,7 +6,7 @@ import Navbar from './Components/Navbar';
 import Resume from './Components/Resume';
 import Contact from './Components/Contact';
 import Error from './Components/Error';
-import me from './assets/Images/me-2.jpg';
+import myImg from './assets/Images/my-img-3.jpg';
 import Modal from './Components/Modal';
 import { useEffect, useState } from 'react';
 
@@ -27,7 +27,7 @@ function App() {
             {['/', '/resume', '/contact'].includes(pathName) ? (
               <img
                 className='my-img sticky-lg-top'
-                src={me}
+                src={myImg}
                 alt={'Shahed'}
                 style={{ zIndex: '1' }}
                 width='400'

@@ -18,14 +18,14 @@ const Education = () => {
           </p>
         </li>
         <li>
-          <h2 style={{ fontSize: '18px' }}>Edexcel IGCSE A'level</h2>
+          <h2 style={{ fontSize: '18px' }}>Edexcel International A levels</h2>
           <p>
             Methodist English Medium School <br />
             <i className='fa-regular fa-calendar-days'></i> 2015 - 2017
           </p>
         </li>
         <li>
-          <h2 style={{ fontSize: '18px' }}>Edexcel IGCSE O'level</h2>
+          <h2 style={{ fontSize: '18px' }}>Edexcel IGCSE O levels</h2>
           <p>
             Methodist English Medium School <br />
             <i className='fa-regular fa-calendar-days'></i> 2014 - 2015
